@@ -23,3 +23,4 @@ do {
   var average = total / entryCount;
   average = parseInt(average);
   alert("Average score is " + average);
+ document.getElementById("demo").innerHTML = "Thanks for using average test score app.";
