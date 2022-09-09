@@ -1,15 +1,13 @@
 
-div{
+
+div.relative{
+    text-align: top center;
     justify-content: center;
     width: 300px;
     background-color: yellow;
+    font-weight: 900;
   }
-h1{
-    text-align: center;
-    font-style:italic;
-    color: palevioletred;
-    
-}
+
 li {
     width: 500px;
     border-radius: 35px 10em 10%;
@@ -23,7 +21,12 @@ p {color:red;
        font-weight: bold;
        font-weight: 900;
 }
-
+h1{
+    text-align: left;
+    font-style:italic;
+    color: palevioletred;
+    font-weight: normal;
+}
 
 body {
     
