@@ -21,10 +21,14 @@ do {
     }
   }
   while (entry != 999);
-    
-  var average = total / entryCount;
-  average = parseInt(average);
-  alert("Average score is " + average);
+  if (entryCount != 0) {
+    var average = total / entryCount;
+    average = parseInt(average);
+    alert("Average score is " + average);
+  }
+  else {
+    alert("You must enter at least one score.");
+  }
 
   
   document.getElementById("demo").innerHTML = "Thanks for using average test score app.";
