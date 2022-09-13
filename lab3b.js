@@ -24,6 +24,7 @@ do {
   if (entryCount != 0) {
     var average = total / entryCount;
     average = parseInt(average);
+       document.write('<h2> <i><center>Average Test Score<i> <span id = "result"></span>'+average+' </center></h2>');
     alert("Average score is " + average);
   }
   else {
